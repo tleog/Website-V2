@@ -14,10 +14,10 @@
 body {
     height: 95vh;
     padding: 10px;
-    background: #58350e;
+    background: #03447a;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 10px solid #865217;
+    border: 0px solid #f3f3f3;
 }
