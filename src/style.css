@@ -14,7 +14,8 @@
 body {
     height: 95vh;
     padding: 0px;
-    background: #393E46;
+    background-image: url(/src/images/slate1.jpg);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,8 +30,8 @@ body {
 }
 .headerlink {
     background-color: #00ADB5;
-    border-radius: 5px;
-    position: relative; left: 0px; top: 60px; padding: 0px; margin: 15px;
+    border-radius: 15px;
+    position: relative; left: 0px; top: 60px; padding: 15px; margin: 15px; border: 2px solid;
     font-size: 35px;
     color: #EEEEEE;
     z-index: 1;
@@ -53,10 +54,30 @@ body {
   }
 .div1{
        position: absolute; bottom: 160px; top: 260px; left: 160px; right: 160px;
-       background-color: #ce531a7a;
+       background-color: #0405058e;
+       color: #EEEEEE;
+       text-align: center;
+}
+.aboutheader {
+    font-size: 40px;
+
+}
+.aboutheadertwo{
+    font-size: 30px; 
+    
+}
+.aboutpicture{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  scale: 120%;  
+}
+.contacttext{
+    text-align:left;
 }
 
 .footer{
     font-size:11px;
     margin-top: auto;
+    color:#EEEEEE;
 }
