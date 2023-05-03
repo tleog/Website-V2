@@ -53,12 +53,20 @@ body {
 
   }
 .div1{
-       position: absolute; bottom: 160px; top: 260px; left: 160px; right: 160px;
+       position: absolute; bottom: 160px; top: 260px; left: 15%; right: 15%;
        background-color: #0405058e;
        color: #EEEEEE;
        text-align: center;
        border-radius: 5px;
        padding: 10px;
+}
+.divhome{
+    position: absolute; bottom: 160px; top: 260px; left: 15%; right: 15%;
+    background-color: #0405058e;
+    color: #EEEEEE;
+    text-align: left;
+    border-radius: 5px;
+    padding: 10px;
 }
 .div2{
     position: absolute; bottom: 160px; top: 260px; left: 160px; right: 160px;
@@ -67,6 +75,10 @@ body {
     text-align: center;
     border-radius: 5px;
     padding: 10px;
+}
+.div3{
+    position: absolute; bottom: 15%; top: auto; left: 50%; right: auto;
+    color: #EEEEEE;
 }
 .aboutheader {
     font-size: 40px;
@@ -97,6 +109,12 @@ body {
   border: 5px solid #0405058e;
   border-radius: 5px;
   background-color: #1949492c;
+  }
+  .feedbackbox{
+    color: #222831;
+    text-align: center;
+    border-width: 5px;
+    border-color: #222831;
   }
 .footer{
     font-size:11px;
