@@ -29,11 +29,11 @@ body {
     position: absolute; left:0px; right:0px; top:0px; border-radius: 0px; text-align: center; 
 }
 .headerlink {
-    background-color: #00ADB5;
+    background-color: #6a9597f6;
     border-radius: 15px;
     position: relative; left: 0px; top: 60px; padding: 15px; margin: 15px; border: 2px solid;
     font-size: 35px;
-    color: #EEEEEE;
+    color: #d3d9f5;
     z-index: 1;
    
 }
